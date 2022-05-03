@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: radial-gradient(farthest-side at 100px 100px, #3DCA80, #FFFFFF);
+    height: 100vh;
+}
+
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header {
+    padding: 30px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo {
+    cursor: pointer;
+    font-size: 24px;
+    padding-right: 10px;
+    font-weight: 600;
+}
+
+.nav-content {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-content li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-content li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-content li a:hover {
+    color: #EAEAEA;
+}
+
+.nav-btn-1 {
+    color: #3DCA80;
+}
+
+.nav-buttons {
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+   gap: 20px;
+}
+
