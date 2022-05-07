@@ -83,16 +83,35 @@ header {
 .hero-title {
     padding-top: 60px;
     font-family: "Montserrat", sans-serif;
-    padding-left: 20px;
+    padding-left: 25px;
     color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 600;
 }
 
 .hero-text {
     padding-top: 20px;
-    padding-left: 20px;
+    padding-left: 25px;
     font-family: "Montserrat", sans-serif;
     color: #FFFFFF;
+    font-size: 20px;
 }
+
+.hero-btn-2 {
+    background-color: #3DCA80;
+    border: none;
+    border-radius: 15px !important;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.hero-btn-1 {
+    color: #3DCA80;
+    margin-top: 50px;
+    display: inline-block;
+}
+
 
 
 
