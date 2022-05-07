@@ -109,7 +109,21 @@ header {
 .hero-btn-1 {
     color: #3DCA80;
     margin-top: 50px;
-    display: inline-block;
+}
+
+.hero-img-1 {
+    width: 235px;
+    padding-top: 460px;
+}
+
+.hero-img-2 {
+    width: 235px;
+    padding-top: 310px;
+}
+
+.hero-img-3 {
+    width: 235px;
+    padding-top: 235px;
 }
 
 
