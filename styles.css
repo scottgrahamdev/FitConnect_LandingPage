@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: radial-gradient(farthest-side at 100px 100px, #3DCA80, #FFFFFF);
+    background-image: radial-gradient(farthest-corner at 300px 100px, #3DCA80 25%, #FFFFFF 75%);
     height: 100vh;
 }
 
@@ -97,35 +97,28 @@ header {
     font-size: 20px;
 }
 
+.hero-button-container {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
 .hero-btn-2 {
-    background-color: #3DCA80;
+    background-color: #FFFFFF;
+    color: #3DCA80;
     border: none;
     border-radius: 15px !important;
     width: 100px;
-    margin-top: 20px;
-    margin-left: 20px;
+    padding-right: 10px;
 }
 
 .hero-btn-1 {
-    color: #3DCA80;
-    margin-top: 50px;
+    color: #FFFFFF;
+    padding-left: 10px;
+    text-decoration: none;
 }
 
-.hero-img-1 {
-    width: 235px;
-    padding-top: 460px;
+.hero-img {
+    padding-top: 75px;
 }
-
-.hero-img-2 {
-    width: 235px;
-    padding-top: 310px;
-}
-
-.hero-img-3 {
-    width: 235px;
-    padding-top: 235px;
-}
-
-
 
 
